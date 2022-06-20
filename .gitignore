@@ -1,0 +1,6 @@
+nde_modules/
+.cache/
+public
+*.txt
+*.zip
+.storybook/

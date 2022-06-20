@@ -1,0 +1,151 @@
+h1 {
+	text-align: center;
+}
+h2 {
+  display: block;
+  font-size: 1.17em;
+  margin-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+html {
+  background-color: #eee8d5;
+}
+body {
+  max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.5;
+	font-size: 24px;
+	font-family: "Georgia";
+  background-color: #fdf6e3;
+	color: #444;
+  border: 1pt solid #93a1a1;
+	padding: 1.5em;
+	max-width: 20cm;
+}
+button {
+	font-size: 24px;
+}
+
+/* 
+https://stackoverflow.com/questions/1367409/how-to-make-button-look-like-a-link
+*/
+
+button[class="showEng"] {
+	padding: 2px;
+  background: none;
+  border: none;
+	font-family: "Georgia";
+	font-size: 24px;
+	color: #444;
+  cursor: pointer;
+}
+
+footer {
+	text-align: center;	
+}
+
+input[type="text"]
+{
+	font-size: 24px;
+	font-family: "Georgia";
+	color: #444;
+	width: 100px;
+}
+
+table, th, td {
+	padding: 15px; 
+  border: 1pt solid #93a1a1;
+  border-collapse: collapse;
+}
+
+.zoomin {
+  animation: spin 1s ease-in-out;
+}
+
+.audio:hover {
+  transition: transform .5s;
+  transform: scale(1.1);
+}
+
+@keyframes spin {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+.popup-content {
+  margin: auto;
+  background-color: #fdf6e3;
+  padding: 5px;
+}
+
+.popup-arrow {
+  color: #fdf6e3;
+}
+@keyframes anvil {
+  0% {
+    transform: scale(1) translateY(0px);
+    opacity: 0;
+    box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+  }
+  1% {
+    transform: scale(0.96) translateY(10px);
+    opacity: 0;
+    box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+  }
+  100% {
+    transform: scale(1) translateY(0px);
+    opacity: 1;
+		box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+  }
+}
+.popup-content {
+  -webkit-animation: anvil 0.1s cubic-bezier(0.38, 0.1, 0.36, 0.9) forwards;
+}
+.hiddenGloss {
+ 	opacity: 0.75;
+}
+
+.fullTrans {
+ 	opacity: 0.75;
+  font-size: 15px;
+}
+
+.showEngButton {
+	padding: 2px;
+  background: none;
+  border: none;
+	font-family: "Georgia";
+	font-size: 24px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: blue;
+}
+
+.nav {
+  color: blue;
+	padding: 2px;
+}
+
+.diacriticinserter {
+  font-size: 18px;
+	font-family: "Georgia";
+  margin: 3px;
+}
+
+.rounded {
+  border-radius: 50%;
+  border: 1.5pt solid #93a1a1;
+}
+
+.storyOrg {
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+.poetry button {
+  margin-left: 0.15em;
+  margin-right: 0.15em;
+}
