@@ -1,7 +1,10 @@
 h1 {
 	text-align: center;
 }
-h2 {
+.centered {
+	text-align: center;
+}
+.bigger {
   display: block;
   font-size: 1.17em;
   margin-bottom: 0em;
@@ -12,8 +15,13 @@ h2 {
 html {
   background-color: #eee8d5;
 }
-body {
-  max-width: 750px;
+
+.normalText {
+	font-size: 24px;
+	font-family: "Georgia";
+}
+
+main:not(.specialfooter) {
 	margin-left: auto;
 	margin-right: auto;
 	line-height: 1.5;
@@ -25,6 +33,7 @@ body {
 	padding: 1.5em;
 	max-width: 20cm;
 }
+
 button {
 	font-size: 24px;
 }
@@ -57,7 +66,7 @@ input[type="text"]
 
 table, th, td {
 	padding: 15px; 
-  border: 1pt solid #93a1a1;
+  border: 0.5pt solid rgba(147, 161, 161, 0.5);
   border-collapse: collapse;
 }
 
@@ -79,6 +88,8 @@ table, th, td {
   margin: auto;
   background-color: #fdf6e3;
   padding: 5px;
+	font-size: 24px;
+	font-family: "Georgia";
 }
 
 .popup-arrow {
@@ -146,6 +157,11 @@ table, th, td {
 }
 
 .poetry button {
-  margin-left: 0.15em;
-  margin-right: 0.15em;
+  margin-left: 0.20em;
+  margin-right: 0.20em;
+}
+
+.hover:hover {
+  transition: transform .3s;
+  transform: scale(1.05);
 }

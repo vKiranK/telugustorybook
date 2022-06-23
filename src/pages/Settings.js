@@ -1,85 +1,7 @@
 import * as React from "react"
 import "../styles/style.css"
 import { Link } from "gatsby"
-
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
-const headingAccentStyles = {
-  color: "#663399",
-}
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
-const listStyles = {
-  marginBottom: 96,
-  paddingLeft: 0,
-}
-const listItemStyles = {
-  fontWeight: 300,
-  fontSize: 24,
-  maxWidth: 560,
-  marginBottom: 30,
-}
-
-const linkStyle = {
-  color: "#8954A8",
-  fontWeight: "bold",
-  fontSize: 16,
-  verticalAlign: "5%",
-}
-
-const docLinkStyle = {
-  ...linkStyle,
-  listStyleType: "none",
-  marginBottom: 24,
-}
-
-const descriptionStyle = {
-  color: "#232129",
-  fontSize: 14,
-  marginTop: 10,
-  marginBottom: 0,
-  lineHeight: 1.25,
-}
-
-const docLink = {
-  text: "Documentation",
-  url: "https://www.gatsbyjs.com/docs/",
-  color: "#8954A8",
-}
-
-const badgeStyle = {
-  color: "#fff",
-  backgroundColor: "#088413",
-  border: "1px solid #088413",
-  fontSize: 11,
-  fontWeight: "bold",
-  letterSpacing: 1,
-  borderRadius: 4,
-  padding: "4px 6px",
-  display: "inline-block",
-  position: "relative",
-  top: -2,
-  marginLeft: 10,
-  lineHeight: 1,
-}
-
+import Footer from "../components/Footer"
 
 const Settings = () => {
   function toggleTGScript() {
@@ -104,20 +26,31 @@ const Settings = () => {
       return;
     }
   }
+  // https://stackoverflow.com/questions/5024056/how-to-pass-parameters-on-onchange-of-html-select
+  function setStorageScript(event) {
+    var value = event.target.value;  
+    localStorage.setItem('script', value);
+    console.log("Switching to " , event, "...");
+    console.log("Switching to " , value, "...");
+  }
+
   return (
     <div>
-      <main style={pageStyles}>
+      <main>
         <title>Settings</title>
         <h1>Settings</h1> 
-        <p>
-          <button onClick={toggleTGScript}>Toggle TG Script</button>
-        </p>
-        <p>
-          <Link to="/">Home</Link>
-        </p>
-        <p>
-          <Link to="/C1P1">C1P1</Link>
-        </p>
+        Use this menu to choose a custom script: { }
+        <select className="normalText" defaultValue="telugu" onChange={setStorageScript}>
+          <option value="devanagari">Devanagari</option>
+          <option value="kolkata">English (IAST)</option>
+          <option value="kannada">Kannada</option>
+          <option value="malayalam">Malayalam</option>
+          <option value="tamil">Tamil</option>
+          <option value="telugu">Telugu</option>
+        </select>
+        <br />
+        Warning: this feature is experimental, so selecting an option other than English or Telugu may result in ambiguity or other errors.
+        <Footer />
       </main>
     </div>
   );

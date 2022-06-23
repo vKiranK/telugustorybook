@@ -24,20 +24,13 @@ function TGSentence(props) {
 	// https://stackoverflow.com/questions/47686345/playing-sound-in-react-js
 	Sanscript();
   let engwords = props.meaning.split(' ').filter(w => w !== '');
-	let specificEngwords = 1;
-	for (var k = 0; k < engwords.length; k++) { 
-		specific_engwords[k] = engwords[k];
-	}
-	if (props.specificmeaning === undefined) {
-		let specific_engwords = props.specificmeaning.split(' ').filter(w => w !== '');
+	let specificEngwords = [];
+	for (var k = 0; k < engwords.length; k++) { specificEngwords[k] = engwords[k]; }
+	if (props.specificmeaning !== undefined) {
+		specificEngwords = props.specificmeaning.split(' ').filter(w => w !== '');
 	}
   let meanings = props.display.split(' ').filter(w => w !== '');
-	//console.log("SS schemes2:", Sanscript.t);
-	//console.log(Sanscript.t("idi", 'kolkata', 'telugu'));
-	//console.log("SS schemes1:", Sanscript.schemes);
-	//console.log("SS schemes:", Sanscript());
-	//console.log(transliterate.hi());
-	//console.log(transliterate.t("idi", 'kolkata', 'telugu'));
+
 	for (var k = 0; k < engwords.length; k++) { engwords[k] = engwords[k].replace(/_/g, ' '); }
 	// allows you to use underscores as spaces
 	
@@ -56,10 +49,11 @@ function TGSentence(props) {
 		showTranslit = 0;
 	}
 	if (showTranslit == 0) {
-		for (var k = 0; k < meanings.length; k++) { meanings[k] = Sanscript.t(meanings[k], 'kolkata', 'telugu'); }
-		//for (var k = 0; k < meanings.length; k++) { console.log("TRANS", meanings[k], Sanscript.t(meanings[k], 'kolkata', 'telugu')); }
+		for (var k = 0; k < meanings.length; k++) { meanings[k] = Sanscript.t(meanings[k], 'kolkata', 'devanagari'); }
 	}
-	//engwords.forEach((x, i) => console.log("aa", x));
+	else {
+		for (var k = 0; k < meanings.length; k++) { meanings[k] = Sanscript.t(meanings[k], 'kolkata', 'kolkata'); }
+	}
 
 	meanings.forEach(function(meaning, i) {
 		//console.log(meaning, i);
@@ -67,9 +61,10 @@ function TGSentence(props) {
 
 	for (var k = 0; k < engwords.length; k++) { 
 		engwords[k] = engwords[k].replace(/_/g, ' '); 
-		if( (!(props.specificmeaning === undefined))  && specific_engwords[k] == ';') {
-			specific_engwords[k] = engwords[k];
+		if( (!(props.specificmeaning === undefined))  && specificEngwords[k] == ';') {
+			specificEngwords[k] = engwords[k];
 		}
+		specificEngwords[k] = specificEngwords[k].replace(/_/g, ' '); 
 	}
 
   return (
@@ -100,7 +95,7 @@ function TGSentence(props) {
 								</rt><rp>)</rp>
 							</ruby>
 							} 
-							position="bottom center">{specific_engwords[i]}</Popup>
+							position="bottom center" class="telugupopup">{specificEngwords[i]}</Popup>
 						);
 						//<Popup trigger={<button className="hiddenbutton">{engword[i]}</button>} position="right center">
 						//</Popup>;
