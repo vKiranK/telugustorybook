@@ -3,7 +3,6 @@ import { navigate } from "gatsby"
 
 function ArrowNavigator(e, back, front) {
 	let ge = e || window.event;
-	var z = document.getElementsByClassName("nav");
 	if (e.keyCode == '37') { // left arrow and h (vim-like bindings)
 		console.log("moving backward...");
 		navigate(back);

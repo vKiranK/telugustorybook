@@ -9,10 +9,10 @@ const KukkaIntro = () => {
       <title>Telugu Storybooks</title>
       <h1>kukkala kathālu</h1>
       <h2 className="centered">Introduction</h2>
-      <h3 style={{"font-size": "default"}}>What is this story about?</h3>
+      <h3 style={{"fontSize": "default"}}>What is this story about?</h3>
       This story contains simple sentences about dogs and cats designed for beginners. (<em>kukkala kathālu</em> means "dog stories".) The stories on this site, though often simple, are not necessarily meant for just children. They are designed to be read by anyone, and contain idiomatic but simple Telugu phraseology along with occasional jokes.
       <h3>Who wrote this?</h3>
-      The stories are original content, though they are often inspired by other resources. See the <Link to="/Credits/">credits page</Link>.
+      The stories are original content exclusive to this site, though they are often inspired by other resources. See the <Link to="/Credits/">credits page</Link>.
       <h3>Where can I start reading?</h3>
       See the section "List of Chapters" below.
       <h2 className="centered">List of Chapters</h2>
@@ -48,7 +48,7 @@ const KukkaIntro = () => {
         </tbody>
       </table>
 
-      <footer align="center" style={{"margin-top": "2em"}}>
+      <footer align="center" style={{"marginTop": "2em"}}>
         <nav>
           <div>
             <Link to="/" className="nav" style={{"margin": "0.15em"}}>Home</Link>

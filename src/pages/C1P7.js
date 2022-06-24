@@ -5,17 +5,17 @@ import { StaticImage } from "gatsby-plugin-image"
 import Navbar from "../components/navbar"
 
 // markup
-const C1P7 = () => {
+const C1P6 = () => {
   // Left/right-arrow navigation
   return (
     <main>
 			<div className="telugu">
-				<TGSentence display="idi oka pilli." meaning="this a cat" fullmeaning="This is a cat." isAudio="1" url="c1p7"/>
-        <TGSentence display="idi oka maṃci pilli kādu." meaning="this a good cat is-not" fullmeaning="This is not a good cat."/>
+				<TGSentence display="idi oka eluka nā?" meaning="this a rat (question_marker)" fullmeaning="Is this a rat?" isAudio="1" url="c1p8"/>
+        <TGSentence display="avunu! idi oka eluka." meaning="yes this a rat" fullmeaning="Yes, this is a rat."/>
 			</div>
 
       <StaticImage
-        src="../images/angrycat.jpg"
+        src="../images/cuterat.jpg"
         alt="A cat"
         placeholder="blurred"
         layout="fixed"
@@ -27,4 +27,4 @@ const C1P7 = () => {
   )
 }
 
-export default C1P7;
+export default C1P6;

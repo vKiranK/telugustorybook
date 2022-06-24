@@ -9,14 +9,15 @@ import "../styles/rubyfixes.css"
 function TGSentence(props) {
 	let tag = "c1p1"
 	let isDef = 1;
-	if (typeof props.url === undefined) {
+	if (props.url == null) {
 		tag = "c1p1"
 		isDef = 0;
 	}
 	else {
 		tag = props.url
 	}
-	const [audio] = useState(typeof Audio !== "undefined" && new Audio("https://vkirank.com/newstorybook/sounds/" + props.url + ".mp3"));
+
+	const [audio] = useState(typeof Audio !== "undefined" && new Audio("https://vkirank.com/newstorybook/sounds/" + tag + ".mp3"));
   function playAudioWrapper() {
 		if (!isDef) return;
     audio.play();
@@ -34,26 +35,17 @@ function TGSentence(props) {
 	for (var k = 0; k < engwords.length; k++) { engwords[k] = engwords[k].replace(/_/g, ' '); }
 	// allows you to use underscores as spaces
 	
-	let showTranslit = 0;
-	let useTranslitStorage = "False";	
-	const isBrowser = typeof window !== "undefined"
-
+	const isBrowser = typeof window !== "undefined";
+	let localScript = "telugu";
 	if (isBrowser){
-		useTranslitStorage = localStorage.getItem('useTranslit');
+		localScript = localStorage.getItem('script');
+		console.log(localScript);
+		if (!localScript) {
+			localScript = "telugu"
+		}
 	}
 
-	if (useTranslitStorage == "True") {
-		showTranslit = 1;
-	}
-	else if (useTranslitStorage = "False") {
-		showTranslit = 0;
-	}
-	if (showTranslit == 0) {
-		for (var k = 0; k < meanings.length; k++) { meanings[k] = Sanscript.t(meanings[k], 'kolkata', 'devanagari'); }
-	}
-	else {
-		for (var k = 0; k < meanings.length; k++) { meanings[k] = Sanscript.t(meanings[k], 'kolkata', 'kolkata'); }
-	}
+	for (var k = 0; k < meanings.length; k++) { meanings[k] = Sanscript.t(meanings[k], 'kolkata', localScript); }
 
 	meanings.forEach(function(meaning, i) {
 		//console.log(meaning, i);
@@ -87,7 +79,7 @@ function TGSentence(props) {
 						return (
 						<Popup trigger=
 							{
-							<ruby style={{"ruby-position": "under"}}>
+							<ruby style={{"rubyPosition": "under"}}>
 							<button className="showEng">{ meanings[i].replace(/_/g, ' ')}
 							</button>
 							<rp>(</rp><rt className="hiddenGloss" style={{"display": "none"}}>

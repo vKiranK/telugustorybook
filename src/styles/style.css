@@ -140,6 +140,10 @@ table, th, td {
 	padding: 2px;
 }
 
+Link, a {
+  color: blue;
+}
+
 .diacriticinserter {
   font-size: 18px;
 	font-family: "Georgia";

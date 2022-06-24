@@ -18,6 +18,7 @@ export default function Navbar(props) {
         <br />
         <Link to={back} className="nav">Prev</Link>
         <Link to={front} className="nav">Next</Link>
+				<Link to="/Settings/" className="nav">Settings</Link>
         <Link to="/" className="nav">Home</Link>
       </div>
     </nav>

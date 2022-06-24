@@ -8,7 +8,7 @@ const IndexPage = () => {
   return (
     <main>
       <title>Telugu Storybooks</title>
-			<h1>Hello world</h1>
+			<h1>Telugu Storybooks</h1>
       <table className="storyOrg"> 
         <tbody>
           <tr>

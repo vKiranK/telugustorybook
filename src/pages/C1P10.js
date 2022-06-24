@@ -5,31 +5,26 @@ import TGSentence from "../components/tgsentence"
 import ShowEnglish from "../components/showenglish"
 import { StaticImage } from "gatsby-plugin-image"
 
-// styles
-
-const imgStyles = {
-	float: "left",
-}
-
 // markup
 const C1P9 = () => {
   return (
     <main>
 			<div className="telugu">
-				<TGSentence display="adi oka kukka." meaning="that a dog" fullmeaning="That (over there) is a dog." isAudio="1" url="c1p9"/>
-				<TGSentence display="adi oka maṃci kukka." meaning="that a nice dog" fullmeaning="That (over there) is a nice dog."/>
+				<TGSentence display="idi oka kukka." meaning="this a dog" fullmeaning="This is a dog." />
+        <TGSentence display="idi oka maṃci kukka nā?" meaning="this a nice dog (question_marker)" fullmeaning="Is this a nice dog?"/>
+        <TGSentence display="idi oka maṃci kukka kādu." meaning="this a nice dog is_not" fullmeaning="This is not a nice dog."/>
 			</div>
 
       <StaticImage
-        src="../images/farawaydog.jpeg"
-        alt="A dog that is far away from the camera"
+        src="../images/bad_dog.jpeg"
+        alt="An angry dog"
         placeholder="blurred"
         layout="fixed"
         width={400}
         height={400}
       />
 
-      <Navbar back="C1P10" front="C1P11"/>
+      <Navbar back="C1P8" front="C1P9"/>
     </main>
   )
 }
