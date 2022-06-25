@@ -11,12 +11,12 @@ const C1P11 = () => {
     <main>
 			<div className="telugu">
         <TGSentence display="adi oka pilli nā?" meaning="that a cat (question_marker)" fullmeaning="Is that (over there) a cat?" />
-        <TGSentence display="avunu, adi oka pilli." meaning="yes that a cat" fullmeaning="Is that (over there) a cat?" />
+        <TGSentence display="avunu, adi oka pilli." meaning="yes that a cat" fullmeaning="Yes, that (over there) is a cat." />
 				<TGSentence display="adi oka maṃci pilli." meaning="that a nice cat" fullmeaning="That (over there) is a nice cat."/>
 			</div>
 
       <StaticImage
-        src="../images/farawaydog.jpeg"
+        src="../images/distantpilli.png"
         alt="A cat that is far away from the camera"
         placeholder="blurred"
         layout="fixed"

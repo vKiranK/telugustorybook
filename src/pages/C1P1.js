@@ -20,7 +20,7 @@ const C1P1 = () => {
         width={400}
         height={400}
       />
-      <Navbar back="" front="C1P2"/>
+      <Navbar back="" front="C1P2" killBack="1" />
     </main>
   )
 }
