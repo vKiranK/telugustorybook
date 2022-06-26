@@ -1,15 +1,12 @@
 import * as React from "react"
 import { navigate } from "gatsby"
-
+// this file is deprecated
+// new solution involves use of hooks and states instead of ordinary js event handlers
 function ArrowNavigator(e, back, front, killBack, killFront) {
 	let ge = e || window.event;
 	console.log("event: ", e);
 	console.log("kb and kf:", killBack, killFront)
-	if (killBack) {
-		navigate(back);
-		return;
-	}
-	else if (e.keyCode == '37' && !killBack) { // left arrow and h (vim-like bindings)
+	if (e.keyCode == '37' && !killBack) { // left arrow and h (vim-like bindings)
 		console.log("moving backward...");
 		navigate(back);
 	}

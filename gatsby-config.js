@@ -5,5 +5,5 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
-    "reactjs-popup", "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "react-audio-player", "react-h5-audio-player", "gatsby-plugin-react-helmet"],
+    "reactjs-popup", "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "react-audio-player", "react-h5-audio-player", "gatsby-plugin-react-helmet", "@use-it/event-listener"],
 }

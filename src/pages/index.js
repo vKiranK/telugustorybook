@@ -26,12 +26,12 @@ const IndexPage = () => {
           </tr>
           <tr>
             <td>
-            <Link to="/CaritraIntro/">
+            <Link to="/404/">
             <StaticImage src="../images/gandhi_icon.jpg" alt="Gandhi" placeholder="blurred" layout="fixed" className="rounded hover" height={150} width={150} />
             </Link>
             </td> 
             <td>
-              <Link to="/CaritraIntro/">
+              <Link to="/404/">
                 <h2 className="bigger">bhāratadēśa caritra</h2>
               </Link>
               Stories about Indian history, historical figures, etc.

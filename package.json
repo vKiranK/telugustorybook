@@ -16,6 +16,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@use-it/event-listener": "^0.1.7",
     "gatsby": "^4.12.1",
     "gatsby-plugin-image": "^2.15.0",
     "gatsby-plugin-modal-routing": "^1.2.0",
