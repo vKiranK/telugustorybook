@@ -16,7 +16,7 @@ const C1P9 = () => {
 			</div>
 
       <StaticImage
-        src="../images/bad_dog.jpeg"
+        src="../images/bad_dog.png"
         alt="An angry dog"
         placeholder="blurred"
         layout="fixed"

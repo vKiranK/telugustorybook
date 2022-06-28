@@ -2,7 +2,6 @@ import * as React from "react"
 import { navigate } from "gatsby"
 import { Link } from "gatsby"
 import ShowEnglish from "../components/showenglish"
-import ArrowNavigator from "../components/arrownavigator"
 import useEventListener from '@use-it/event-listener'
 
 export default function Navbar(props) {

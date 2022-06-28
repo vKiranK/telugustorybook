@@ -50,6 +50,19 @@ const IndexPage = () => {
               Telugu poetry written by the <em>kavi</em> Vemana. The poems are intermediate to advanced-level.
             </td>
           </tr>
+          <tr>
+            <td>
+            <Link to="/Grammar/">
+        <StaticImage src="../images/icon.png" alt="The Telugu letter 'te'" placeholder="blurred" layout="fixed" className="rounded hover" height={150} width={150} />
+            </Link>
+            </td> 
+            <td>
+              <Link to="/VemanaIntro/">
+                <h2 className="bigger">vyākaraṇamu</h2>
+              </Link>
+              Observations on Telugu grammar (<em>vyākaraṇamu</em>), partially written in English. Useful for intermediate learners. 
+            </td>
+          </tr>
         </tbody>
       </table>
 

@@ -1,11 +1,11 @@
 import * as React from "react"
-//import { isFirefox } from 'react-device-detect';
+import { isFirefox } from 'react-device-detect';
 
 function ShowEnglish() {
 	var glosses = document.getElementsByClassName("hiddenGloss");
 	var fulltranses = document.getElementsByClassName("fullTrans");
 	let x = "block"
-	var isFirefox = typeof InstallTrigger !== 'undefined';
+	//var isFirefox = typeof InstallTrigger !== 'undefined';
 	if (isFirefox) {
 		// https://stackoverflow.com/questions/9847580/how-to-detect-safari-chrome-ie-firefox-and-opera-browser
 		console.log("firefox");

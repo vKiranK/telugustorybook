@@ -1,7 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import ShowEnglish from "../components/showenglish"
-import ArrowNavigator from "../components/arrownavigator"
 
 export default function Footer() {
 	return (
