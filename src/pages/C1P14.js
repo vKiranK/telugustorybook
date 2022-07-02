@@ -15,8 +15,8 @@ const C1P14 = () => {
         <TGSentence display="idi ēmiṭi?" meaning="this what" fullmeaning="What is this?"/>
 			</div>
       <StaticImage
-        src="../images/bird.png"
-        alt="A bear"
+        src="../images/newbird.png"
+        alt="A bird"
         placeholder="blurred"
         layout="fixed"
         width={400}

@@ -5,11 +5,20 @@ import ShowEnglish from "../components/showenglish"
 import useEventListener from '@use-it/event-listener'
 
 export default function Navbar(props) {
-  let x = 0;
-  let back = ("" + "/" + props.back)
-  let front = ("" + "/" + props.front)
-  const isBrowser = typeof window !== "undefined"
 
+  let back = ""; 
+  let front = ""; 
+
+  if (props.default) {
+    back = ("/C" + props.default[1] + "P" + (parseInt(props.default[3])-1));
+    front = ("/C" + props.default[1] + "P" + (parseInt(props.default[3])+1));
+  }
+  else {
+    back = ("" + "/" + props.back)
+    front = ("" + "/" + props.front)
+  }
+  const isBrowser = typeof window !== "undefined"
+    
   if (isBrowser) {
     //document.onkeydown = function(e) { ArrowNavigator(e, back, front, killBack, killFront); }
   }

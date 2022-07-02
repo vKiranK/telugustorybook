@@ -1,0 +1,16 @@
+{
+  "title": "JSON content used at build time with Gatsby",
+  "content": [
+    {
+      "id": 1,
+      "sentence": "idi kukka",
+      "meaning": "This is a dog."
+    },
+    {
+      "id": 2,
+      "sentence": "idi pilli",
+      "meaning": "This is a cat."
+    }
+  ]
+}
+
