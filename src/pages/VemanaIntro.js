@@ -11,8 +11,8 @@ const VemanaIntro = () => {
       <h2 style={{"font-size": "default"}}>Introduction</h2>
       <h3>Who is Vemana? Why should I read his poetry?</h3>
       Vemana was a Telugu poet born sometime in the 17th century, whose phraseology is "easy enough to be comprehended without difficulty by a foreigner" but complex enough to give learners a better understanding of Telugu idioms (<a href={"https://archive.org/details/in.ernet.dli.2015.367308/page/n5/mode/2up"}>source</a>). His wording is concise and an excellent resource for intermediate to advanced-level learners.
-      <h3>Does this website have the original verses?</h3> 
-      Yes. However, the organization of the books on this website differs from the source material, C. P. Brown's <em>The Verses of Vemana</em>. 
+      <h3>Have you modified the original text?</h3> 
+      No. This website contains the original verses. However, some word boundaries have been adjusted. Spaces have been added to split up long words (e.g. <em>kharamupālu</em> has been changed to <em>kharamu pālu</em>), making the text easier to translate.
       <h3>I'm ready to start reading. Where do I go?</h3> 
       See the links below.
       <h2>Book I (Religious)</h2>

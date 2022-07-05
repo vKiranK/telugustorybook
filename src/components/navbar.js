@@ -26,13 +26,11 @@ export default function Navbar(props) {
   const FRONT_KEYS = ['39', 'ArrowRight'];
 
   function handler({ key }) {
-    console.log(key);
+    //console.log(key);
     if (BACK_KEYS.includes(String(key))) {
-      console.log('hello');
 		  navigate(back);
     }
     else if (FRONT_KEYS.includes(String(key))) {
-      console.log('hello');
 		  navigate(front);
     }
   }

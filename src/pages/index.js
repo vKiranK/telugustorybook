@@ -39,6 +39,19 @@ const IndexPage = () => {
           </tr>
           <tr>
             <td>
+            <Link to="/BuduguIntro/">
+            <StaticImage src="../images/budugu_icon.png" alt="Gandhi" placeholder="blurred" layout="fixed" className="rounded hover" height={150} width={150} />
+            </Link>
+            </td> 
+            <td>
+              <Link to="/BuduguIntro/">
+                <h2 className="bigger">buḍugu</h2>
+              </Link>
+              A digitized version of the book <em>buḍugu</em> by Veṃkaṭaramaṇa Muḷḷapuḍi. Humorous, well-written stories suitable for beginner to intermediate-level learners. Includes cartoons by the artist Bāpu.
+            </td>
+          </tr>
+          <tr>
+            <td>
             <Link to="/VemanaIntro/">
         <StaticImage src="../images/vemana_icon.png" alt="The poet Vemana" placeholder="blurred" layout="fixed" className="rounded hover" height={150} width={150} />
             </Link>
@@ -57,7 +70,7 @@ const IndexPage = () => {
             </Link>
             </td> 
             <td>
-              <Link to="/VemanaIntro/">
+              <Link to="/GrammarIntro/">
                 <h2 className="bigger">vyākaraṇamu</h2>
               </Link>
               Observations on Telugu grammar (<em>vyākaraṇamu</em>), partially written in English. Useful for intermediate learners. 

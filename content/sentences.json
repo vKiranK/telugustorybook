@@ -1,15 +1,25 @@
 {
-  "title": "JSON content used at build time with Gatsby",
+  "title": "JSON content used at build time to get Telugu sentences",
   "content": [
     {
-      "id": 1,
       "sentence": "idi kukka",
       "meaning": "This is a dog."
     },
     {
-      "id": 2,
-      "sentence": "idi pilli",
+      "sentence": "idi pilli kādu",
       "meaning": "This is a cat."
+    },
+    {
+      "sentence": "ī bomma nēnu",
+      "meaning": "This is a picture of me."
+    },
+    {
+      "sentence": "nā@ pēru buḍugu. iṃko pēru piḍugu. mā bāmma hāri piḍugā aṃṭuṃdi. aṃduku.",
+      "meaning": "My name is Budugu. I have another name, Pidugu. My grandma calls me 'Hari Piduga.' That's why."
+    },
+    {
+      "sentence": "iṃko assalu pēruṃdi. ippuḍu ceppaḍāniki ṭaimu lēdu. adi cālā poḍugu. kāvālistē mā nānnani aḍugu.",
+      "meaning": "I have yet another name. There is not enough time to say it right now. It is very long. If you want (to know) it, ask my dad."
     }
   ]
 }

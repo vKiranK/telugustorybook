@@ -10,10 +10,11 @@ const C0P0Test = () => {
   return (
     <main>
 			<div className="telugu">
-        This is a testing page. It should be impossible for users to find this webpage solely by navigating through the links provided on the site.
-        <TGSentence display="idi oka kukka." meaning="lol a dog" fullmeaning="This is a dog." isAudio="1" url="c1p1"/>
-				<TGSentence display="idi oka maṃci kukka." meaning="this a nice dog" fullmeaning="This is a nice dog."/>
-        <JSONSentence sentid={2} />
+        This is a testing page. It is impossible find this webpage solely by navigating through the links provided on the site.
+        {/*<TGSentence display="idi oka kukka." meaning="lol a dog" fullmeaning="This is a dog." isAudio="1" url="c1p1"/>
+        <TGSentence display="idi oka maṃci kukka." meaning="this a nice dog" fullmeaning="This is a nice dog."/>*/}
+        <JSONSentence sentid={3} />
+        <JSONSentence sentid={4} />
 			</div>
       <StaticImage
         src="../images/dog.webp"
