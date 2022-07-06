@@ -11,15 +11,15 @@ function JSONSentence(props) {
 
   if (props.audioUrl) {
     return (
-    <div>
-      <TGSentence display={sent.sentence} fullmeaning={sent.meaning} isAudio="1" url="c1p1" />
+    <div className="telugu poetry">
+      <TGSentence  display={sent.sentence} fullmeaning={sent.meaning} isAudio="1" url="c1p1" />
     </div>
     );
   }
   else {
     return (
-    <div>
-      <TGSentence display={sent.sentence} fullmeaning={sent.meaning}/>
+    <div className="telugu poetry">
+      <TGSentence className="poetry"display={sent.sentence} fullmeaning={sent.meaning}/>
     </div>
     );
   }

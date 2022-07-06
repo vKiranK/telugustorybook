@@ -39,15 +39,15 @@ const IndexPage = () => {
           </tr>
           <tr>
             <td>
-            <Link to="/BuduguIntro/">
-            <StaticImage src="../images/budugu_icon.png" alt="Gandhi" placeholder="blurred" layout="fixed" className="rounded hover" height={150} width={150} />
+            <Link to="/RaoIntro/">
+            <StaticImage src="../images/rao_icon.png" alt="A picture of the cover of a book" placeholder="blurred" layout="fixed" className="rounded hover" height={150} width={150} />
             </Link>
             </td> 
             <td>
-              <Link to="/BuduguIntro/">
-                <h2 className="bigger">buḍugu</h2>
+              <Link to="/RaoIntro/">
+                <h2 className="bigger">kollāyi gaṭṭitē nēmi?</h2>
               </Link>
-              A digitized version of the book <em>buḍugu</em> by Veṃkaṭaramaṇa Muḷḷapuḍi. Humorous, well-written stories suitable for beginner to intermediate-level learners. Includes cartoons by the artist Bāpu.
+              A digitized version of the book <em>kollāyi gaṭṭitē nēmi?</em> by Mahidhara Rammohan Rao. A well-written text about the Indian independence movement suitable for beginner to intermediate-level learners.
             </td>
           </tr>
           <tr>
