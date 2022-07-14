@@ -25,7 +25,6 @@ function TGSentence(props) {
 	console.log(bigDict);
   let telugu = props.display.split(' ').filter(w => w !== '');
 
-
 	// Audio stuff
 	// https://stackoverflow.com/questions/47686345/playing-sound-in-react-js
 	let tag = "c1p1"

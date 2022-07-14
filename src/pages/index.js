@@ -26,7 +26,7 @@ const IndexPage = () => {
           </tr>
           <tr>
             <td>
-            <Link to="/404/">
+            <Link to="/history/HistoryIntro/">
             <StaticImage src="../images/gandhi_icon.jpg" alt="Gandhi" placeholder="blurred" layout="fixed" className="rounded hover" height={150} width={150} />
             </Link>
             </td> 
@@ -52,7 +52,7 @@ const IndexPage = () => {
           </tr>
           <tr>
             <td>
-            <Link to="/VemanaIntro/">
+            <Link to="/vemana/VemanaIntro/">
         <StaticImage src="../images/vemana_icon.png" alt="The poet Vemana" placeholder="blurred" layout="fixed" className="rounded hover" height={150} width={150} />
             </Link>
             </td> 

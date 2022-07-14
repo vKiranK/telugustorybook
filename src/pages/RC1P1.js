@@ -10,11 +10,11 @@ const RC1P1 = () => {
   return (
     <main>
 			<div className="telugu">
-        <JSONSentence sentid={5} />
-        <JSONSentence sentid={6} />
-        <JSONSentence sentid={7} />
-        <JSONSentence sentid={8} />
-        <JSONSentence sentid={9} />
+        <JSONSentence sentid={0} content="rao"/>
+        <JSONSentence sentid={1} content="rao"/>
+        <JSONSentence sentid={2} content="rao"/>
+        <JSONSentence sentid={3} content="rao"/>
+        <JSONSentence sentid={4} content="rao"/>
 			</div>
       <Navbar back="RaoIntro" front="RC1P2" />
     </main>

@@ -1,6 +1,6 @@
 {
   "title": "JSON content used at build time to get Telugu sentences",
-  "content": [
+  "kukka": [
     {
       "sentence": "idi kukka",
       "meaning": "This is a dog."
@@ -8,7 +8,196 @@
     {
       "sentence": "idi pilli kādu",
       "meaning": "This is a cat."
+    }
+  ],
+  "vemanaReligious": [
+    {
+      "sentence": "viśvadābhirāma vinuravēma!",
+      "meaning": "Viśvada and Abhi Rāma, listen!"
     },
+    {
+      "sentence": "gaṃgigōvupālu gaṃṭeḍainanu cālu;",
+      "meaning": "A single spoonful of milk from a venerable cow is enough."
+    },
+    {
+      "sentence": "kaḍaveḍainanēmi kharamupālu;",
+      "meaning": "Of what use is a pailful of donkey's milk?"
+    },
+    {
+      "sentence": "bhaktigalugu kūḍupaṭṭeḍainanu cālu;",
+      "meaning": "A single handful of food given with faith is enough."
+    }
+  ],
+  "vemanaMoral": [
+    {
+      "sentence": "patini viḍuvarādu padivēlakainanu",
+      "meaning":  "A lord shouldn't be abandoned, even for a thousand others."
+    },
+    {
+      "sentence": "beṭṭi cepparādu peddakaina",
+      "meaning":  "One shouldn't gossip (about him), regardless of his greatness."
+    },
+    {
+      "sentence": "patini tiṭṭarādu sati rūpavatiyaina",
+      "meaning":  "A wife shouldn't scorn her husband, regardless of her beauty."
+    },
+    {
+      "sentence":  "alpu~ḍenni palkulalayaka palkina",
+      "meaning": ""
+    },
+    {
+      "sentence":  "nadhiku~ ḍūrakuṃḍu nadaripaḍaka",
+      "meaning": ""
+    },
+    {
+      "sentence":  "kaṃcumrōgunaṭlu kanakaṃbu mrō~gunā?",
+      "meaning": ""
+    }
+  ],
+  "historyOne": [
+    {
+      "sentence": "īyana evaru?",
+      "meaning": "Who is he?"
+    },
+    {
+      "sentence": "īyana nannayya.",
+      "meaning": "He is Nannayya."
+    },
+    {
+      "sentence": "nannayya evaru?",
+      "meaning": "Who is Nannayya?"
+    },
+    {
+      "sentence": "nannayya oka kavi.",
+      "meaning": "Nannayya was a poet"
+    },
+    {
+      "sentence": "nannayya oka mukhyamaina kavā?",
+      "meaning": "Was Nannayya an important poet?"
+    },
+    {
+      "sentence": "nannayya modaṭi telugu kavi.",
+      "meaning": "Nannayya was the first Telugu poet."
+    },
+    {
+      "sentence": "nannayya ēṃ cēsāru?",
+      "meaning": "What did Nannayya do?"
+    },
+    {
+      "sentence": "nannayya ēṃ cēsāraṃṭe (cēsāru + aṃṭe) oka kavitvamunu vrāsānu.",
+      "meaning": "What Nannayya did is that he wrote a poem."
+    },
+    {
+      "sentence": "nannayya ē kavitvamunu vrāsāru?",
+      "meaning": "What poem did Nannayya write?"
+    },
+    {
+      "sentence": "nannayya āṃdhramahābhāratamunu vrāsāru.",
+      "meaning": "Nannayya wrote the Āndhra Mahābhāratam."
+    },
+    {
+      "sentence": "nannayya vrāsina kavitvamu āṃdhramahābhāratamunu.",
+      "meaning": "The poem that Nannayya wrote is the Āndhra Mahābhāratam."
+    },
+    {
+      "sentence": "nannayya mottaṃ vrāsārā?",
+      "meaning": "Did Nannayya write the entire (poem)?"
+    },
+    {
+      "sentence": "nannayya mottaṃ vrāyalēdu.",
+      "meaning": "Nannayya did not write the entire poem."
+    },
+    {
+      "useTelugu": "true",
+      "sentence": "నన్నయ్య కొంచెం వ్రాసారు.",
+      "meaning": "Nannayya wrote some of it."
+    },
+    {
+      "sentence": "nannayya canipōyiṃtaruvātā vēra kavulu āṃdhramahābhāratamununu pūrticēsāru.",
+      "meaning": "After Nannayya died, other poets finished the Āndhra Mahābhāratam."
+    },
+    {
+      "sentence": "āṃdhramahābhāratamununu pūrticēsina vāḻḻu evaru?",
+      "meaning": "Who are those people who finished the Āndhra Mahābhāratam?"
+    },
+    {
+      "sentence": "vāḻḻu iddaru. vāḻḻu errana tikkana.",
+      "meaning": "They are two people, they are Errana and Tikkana."
+    },
+    {
+      "sentence": "tikkana errana evaru?",
+      "meaning": "Who were Tikkana and Errana?"
+    },
+    {
+      "sentence": "tikkana errana nannayya lāgā kavulu.",
+      "meaning": "Tikkana and Errana were poets like Nannayya."
+    },
+    {
+      "sentence": "vāḻḻu mukhyamaina kavulā?",
+      "meaning": "Were they important poet?"
+    },
+    {
+      "sentence": "tikkana errana āṃdhramahābhāratamununu vrāsāru. vērē kavitvālu vrāsāru kūḍā",
+      "meaning": "Tikkana and Errana wrote the Āndhra Mahābhāratam. They also wrote other poems."
+    },
+    {
+      "sentence": "āṃdhramahābhāratamunu ēmiṭi?",
+      "meaning": "What is the Āndhra Mahābhāratam?"
+    },
+    {
+      "sentence": "āṃdhramahābhāratamunu oka kavitvamu.",
+      "meaning": "The Āndhra Mahābhāratam is a poem."
+    },
+    {
+      "sentence": "āṃdhramahābhāratamunu oka mahākavitvam.",
+      "meaning": "The Āndhra Mahābhāratam is a great poem."
+    },
+    {
+      "sentence": "nannayya tikkana errana āṃdhramahābhāratamununu ē bhāṣa lō vrāsāru?",
+      "meaning": "In what language did Nannayya, Tikkana, and Errana write the Āndhra Mahābhāratam?"
+    },
+    {
+      "sentence": "āṃdhramahābhāratamununu saṃskṛtaṃ lō vrāsārā?",
+      "meaning": "Did they write the book in Sanskrit?"
+    },
+    {
+      "sentence": "āṃdhramahābhāratamununu telugu lō vrāsārā?",
+      "meaning": "Did they write the book in Telugu?"
+    },
+    {
+      "sentence": "āṃdhramahābhāratamununu telugu lō vrāsāru gāni cānā saṃskṛta padālu vāḍāru. cānā telugu kavulu aṭḻa vrāstāru.",
+      "meaning": "They wrote the Āndhra Mahābhāratam in Telugu, but they used a lot of Sanskrit vocabulary. Many Telugu poets write like that."
+    },
+    {
+      "sentence": "ā kavulu grāṃthika bhāṣa lō vrāsāru.",
+      "meaning": "Those poets wrote in grāṃthika-bhāṣa (a classical, literary style of writing)."
+    },
+    {
+      "sentence": "grāṃthika bhāṣa aṃṭe ēmiṭi?",
+      "meaning": "What does 'grāṃthika bhāṣa' mean?"
+    },
+    {
+      "sentence": "mukhyamaina pustakamulanu kavulanu vrāsinappuḍu konni manuṣulu grāṃthika bhāṣa vāḍutāru.",
+      "meaning": "When writing important books and poems, some people use grāṃthika-bhāṣa."
+    },
+    {
+      "sentence": "grāṃthika bhāṣa sulabhamainadā?",
+      "meaning": "Is grāṃthika bhāṣa easy?"
+    },
+    {
+      "sentence": "kādu. grāṃthika bhāṣa kaṣṭamainadi.",
+      "meaning": "No. Grāmthika bhāṣa is hard."
+    },
+    {
+      "sentence": "grāṃthika bhāṣa nērcukovaḍam kaṣṭamainadi.",
+      "meaning": "It is hard to learn grāṃthika bhāṣa."
+    },
+    {
+      "sentence": "grāṃthika bhāṣa nērcukovaḍam kaṣṭamainadanappaṭiki mukhyamainadi.",
+      "meaning": "Grāṃthika bhāṣa is hard, but it is very important."
+    }
+  ],
+  "budugu": [
     {
       "sentence": "ī bomma nēnu",
       "meaning": "This is a picture of me."
@@ -20,7 +209,9 @@
     {
       "sentence": "iṃko assalu pēruṃdi. ippuḍu ceppaḍāniki ṭaimu lēdu. adi cālā poḍugu. kāvālistē mā nānnani aḍugu.",
       "meaning": "I have yet another name. There is not enough time to say it right now. It is very long. If you want (to know) it, ask my dad."
-    },
+    }
+  ],
+  "rao": [
     {
       "sentence": "mārci 31, ēpril 1.",
       "meaning": "March 31st, April 1st."
@@ -46,5 +237,6 @@
       "meaning": "Since that day, the natoinal movement has struck the Telugu country like four sticks."
     }
   ]
+
 }
 

@@ -1,7 +1,8 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import "../styles/style.css"
 import { Link } from "gatsby"
+
+import "../../styles/style.css"
 
 const VemanaIntro = () => {
   return (
@@ -16,9 +17,9 @@ const VemanaIntro = () => {
       <h3>I'm ready to start reading. Where do I go?</h3> 
       See the links below.
       <h2>Book I (Religious)</h2>
-      Click this <Link to="/VC1P1/">link</Link> to start reading. Warning: the number of verses is quite long.
+      Click this <Link to="/vemana/VC1P1/">link</Link> to start reading.
       <h2>Book II (Moral)</h2>
-      Click this link to start reading. 
+      Click this <Link to="/vemana/VC2P1/">link</Link> to start reading.
       <h2>Book III (Satirical)</h2>
       Click this link to start reading. 
       <footer align="center" style={{"margin-top": "2em"}}>

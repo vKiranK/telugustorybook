@@ -14,8 +14,15 @@ export default function Navbar(props) {
     front = ("/C" + props.default[1] + "P" + (parseInt(props.default[3])+1));
   }
   else {
-    back = ("" + "/" + props.back)
-    front = ("" + "/" + props.front)
+    if (props.prefix) {
+      console.log('prefix:', props.prefix);
+      back = ("" + "/" + props.prefix + "/" + props.back);
+      front = ("" + "/" + props.prefix + "/" + props.front);
+    }
+    else {
+      back = ("" + "/" + props.back);
+      front = ("" + "/" + props.front);
+    }
   }
   const isBrowser = typeof window !== "undefined"
     
