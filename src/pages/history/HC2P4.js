@@ -8,20 +8,21 @@ import JSONSentence from "../../components/jsonsentence"
 import Kadu from "../../components/kadu"
 import Avunu from "../../components/avunu"
 
-const HC2P1 = () => {
+const HC2P4 = () => {
   return (
     <main>
 			<div className="telugu">
-        <JSONSentence sentid={0} content="historyone"/>
-        <JSONSentence sentid={1} content="historyone"/>
-        <JSONSentence sentid={2} content="historyone"/>
-        <JSONSentence sentid={3} content="historyone"/>
-        <JSONSentence sentid={4} content="historyone"/>
-        <JSONSentence sentid={5} content="historyone"/>
+        <JSONSentence sentid={15} content="historyone"/>
+        <JSONSentence sentid={16} content="historyone"/>
+        <JSONSentence sentid={17} content="historyone"/>
+        <JSONSentence sentid={18} content="historyone"/>
+        <JSONSentence sentid={19} content="historyone"/>
+        <JSONSentence sentid={20} content="historyone"/>
+        <Avunu />
 			</div>
-      <Navbar prefix="history" back="HistoryIntro" front="HC2P2" />
+      <Navbar prefix="history" back="HC2P3" front="HC2P5" />
     </main>
   )
 }
 
-export default HC2P1;
+export default HC2P4;

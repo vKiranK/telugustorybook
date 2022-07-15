@@ -16,33 +16,32 @@ const HistoryIntro = () => {
       <h3>Where can I start reading?</h3>
       See the section "List of Chapters" below.
       <h2 className="centered">List of Chapters</h2>
-
       <table className="storyOrg"> 
         <tbody>
           <tr>
             <td>
-              <Link to="/history/HC1P1/">
-          <StaticImage src="../../images/gandhi_icon.jpg" alt="Gandhi" placeholder="blurred" layout="fixed" className="rounded hover" height={125} width={125} />
+              <Link to="/history/HC2P1/">
+          <StaticImage src="../../images/nannayya_icon.jpg" alt="The Telugu poet Nannayya" placeholder="blurred" layout="fixed" className="rounded hover" height={125} width={125} />
             </Link>
             </td>
             <td>
-              <Link to="/history/HC1P1/">
+              <Link to="/history/HC2P1/">
                 <h2 className="bigger">Chapter One</h2>
               </Link>
-              Introduces interrogatives like <em>evaru</em> through a discussion of well-known historical figures like Gandhi.
+              Gives an overview of some of the most important Telugu poets while introducing relative participles (e.g. vrāsina) and complex sentences.
             </td>
           </tr>
           <tr>
             <td>
-              <Link to="/history/HC2P1/">
-          <StaticImage src="../../images/dogeating.jpg" alt="A dog" placeholder="blurred" layout="fixed" className="rounded hover" height={125} width={125} />
+              <Link to="/history/HC2P2/">
+          <StaticImage src="../../images/gandhi_icon.jpg" alt="Gandhi" placeholder="blurred" layout="fixed" className="rounded hover" height={125} width={125} />
             </Link>
             </td>
             <td>
-              <Link to="/history/HC2P1/">
+              <Link to="/history/HC2P2/">
                 <h2 className="bigger">Chapter Two</h2>
               </Link>
-              Gives an overview of some of the most important Telugu poets while introducing relative participles (e.g. vrāsina).
+              Review of interrogatives like <em>evaru</em> through a discussion of well-known historical figures like Gandhi.
             </td>
           </tr>
         </tbody>

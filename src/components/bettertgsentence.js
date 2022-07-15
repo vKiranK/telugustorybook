@@ -19,8 +19,11 @@ function TGSentence(props) {
 			localScript = "telugu"
 		}
 	}
-	
-	// call the library once to prev. out of scope errors
+	let sourceScript = 'kolkata'
+	if (props.useTelugu) {
+		sourceScript = 'telugu'
+	}
+
 	let bigDict = JSONLexicon;
 	console.log(bigDict);
   let telugu = props.display.split(' ').filter(w => w !== '');
@@ -42,7 +45,7 @@ function TGSentence(props) {
     audio.play();
   }
 
-	Sanscript();
+	Sanscript(); // call the library once to prev. out of scope errors
   return (
 			<div>
 				{(props.isAudio === "1") &&
@@ -57,16 +60,16 @@ function TGSentence(props) {
         </button> 
 				}
 				{telugu.map(function(word, i){
-						let translation = word;
-						console.log("Pt1 ENGWORD, TRANSL:", word, bigDict[word]);
+						let translation = Sanscript.t(word, sourceScript, 'kolkata');
+						console.log("Pt1 ENGWORD, TRANSL:", word, bigDict[Sanscript.t(word, sourceScript, 'kolkata')]);
 						if (bigDict[word.replaceAll(".", "")]) {
-							translation = bigDict[word.replaceAll(".", "")];
+							translation = bigDict[Sanscript.t(word.replaceAll(".", ""), sourceScript, 'kolkata')];
 						}
 						return (
 						<Popup key={"tgword_"+i} trigger=
 							{
 							<ruby style={{"rubyPosition": "under"}}>
-							<button className="showEng">{ (Sanscript.t(word, 'kolkata', localScript)).replace(/_/g, ' ').replaceAll("@", "")}
+							<button className="showEng">{ (Sanscript.t(word, sourceScript, localScript)).replace(/_/g, ' ').replaceAll("@", "")}
 							</button>
 							<rp>(</rp><rt className="hiddenGloss" style={{"display": "none"}}>
 								{(translation.replace(/_/g, ' '))}

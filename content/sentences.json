@@ -84,11 +84,11 @@
       "meaning": "What did Nannayya do?"
     },
     {
-      "sentence": "nannayya ēṃ cēsāraṃṭe (cēsāru + aṃṭe) oka kavitvamunu vrāsānu.",
+      "sentence": "nannayya ēṃ cēsāraṃṭe (cēsāru + aṃṭe) oka kāvyamunu vrāsāru.",
       "meaning": "What Nannayya did is that he wrote a poem."
     },
     {
-      "sentence": "nannayya ē kavitvamunu vrāsāru?",
+      "sentence": "nannayya ē kāvyamunu vrāsāru?",
       "meaning": "What poem did Nannayya write?"
     },
     {
@@ -96,7 +96,7 @@
       "meaning": "Nannayya wrote the Āndhra Mahābhāratam."
     },
     {
-      "sentence": "nannayya vrāsina kavitvamu āṃdhramahābhāratamunu.",
+      "sentence": "nannayya vrāsina kāvyamu āṃdhramahābhāratamu.",
       "meaning": "The poem that Nannayya wrote is the Āndhra Mahābhāratam."
     },
     {
@@ -113,11 +113,11 @@
       "meaning": "Nannayya wrote some of it."
     },
     {
-      "sentence": "nannayya canipōyiṃtaruvātā vēra kavulu āṃdhramahābhāratamununu pūrticēsāru.",
+      "sentence": "nannayya canipōyiṃtaruvātā vērē kavulu āṃdhramahābhāratamunu pūrticēsāru.",
       "meaning": "After Nannayya died, other poets finished the Āndhra Mahābhāratam."
     },
     {
-      "sentence": "āṃdhramahābhāratamununu pūrticēsina vāḻḻu evaru?",
+      "sentence": "āṃdhramahābhāratamunu pūrticēsina vāḻḻu evaru?",
       "meaning": "Who are those people who finished the Āndhra Mahābhāratam?"
     },
     {
@@ -137,36 +137,36 @@
       "meaning": "Were they important poet?"
     },
     {
-      "sentence": "tikkana errana āṃdhramahābhāratamununu vrāsāru. vērē kavitvālu vrāsāru kūḍā",
+      "sentence": "tikkana errana āṃdhramahābhāratamunu vrāsāru. vērē kavitvālanu vrāsāru kūḍā.",
       "meaning": "Tikkana and Errana wrote the Āndhra Mahābhāratam. They also wrote other poems."
     },
     {
-      "sentence": "āṃdhramahābhāratamunu ēmiṭi?",
+      "sentence": "āṃdhramahābhāratamu ēmiṭi?",
       "meaning": "What is the Āndhra Mahābhāratam?"
     },
     {
-      "sentence": "āṃdhramahābhāratamunu oka kavitvamu.",
+      "sentence": "āṃdhramahābhāratamu oka kāvyamu.",
       "meaning": "The Āndhra Mahābhāratam is a poem."
     },
     {
-      "sentence": "āṃdhramahābhāratamunu oka mahākavitvam.",
+      "sentence": "āṃdhramahābhāratamu oka mahākāvyamu (mahā + kāvyamu).",
       "meaning": "The Āndhra Mahābhāratam is a great poem."
     },
     {
-      "sentence": "nannayya tikkana errana āṃdhramahābhāratamununu ē bhāṣa lō vrāsāru?",
+      "sentence": "nannayya tikkana errana āṃdhramahābhāratamunu ē bhāṣa lō vrāsāru?",
       "meaning": "In what language did Nannayya, Tikkana, and Errana write the Āndhra Mahābhāratam?"
     },
     {
-      "sentence": "āṃdhramahābhāratamununu saṃskṛtaṃ lō vrāsārā?",
+      "sentence": "āṃdhramahābhāratamunu saṃskṛtaṃ lō vrāsārā?",
       "meaning": "Did they write the book in Sanskrit?"
     },
     {
-      "sentence": "āṃdhramahābhāratamununu telugu lō vrāsārā?",
+      "sentence": "āṃdhramahābhāratamunu telugu lō vrāsārā?",
       "meaning": "Did they write the book in Telugu?"
     },
     {
-      "sentence": "āṃdhramahābhāratamununu telugu lō vrāsāru gāni cānā saṃskṛta padālu vāḍāru. cānā telugu kavulu aṭḻa vrāstāru.",
-      "meaning": "They wrote the Āndhra Mahābhāratam in Telugu, but they used a lot of Sanskrit vocabulary. Many Telugu poets write like that."
+      "sentence": "āṃdhramahābhāratamunu telugu lō vrāsāru gāni cānā saṃskṛta padālu vāḍāru. koṃtamaṃdi telugu kavulu aṭla vrāstāru.",
+      "meaning": "They wrote the Āndhra Mahābhāratam in Telugu, but they used a lot of Sanskrit vocabulary. Many Telugu experts write like that."
     },
     {
       "sentence": "ā kavulu grāṃthika bhāṣa lō vrāsāru.",
@@ -177,7 +177,7 @@
       "meaning": "What does 'grāṃthika bhāṣa' mean?"
     },
     {
-      "sentence": "mukhyamaina pustakamulanu kavulanu vrāsinappuḍu konni manuṣulu grāṃthika bhāṣa vāḍutāru.",
+      "sentence": "mukhyamaina pustakamulanu vrāsinappuḍu koṃtamaṃdi paṃḍitulu grāṃthika bhāṣa vāḍutāru.",
       "meaning": "When writing important books and poems, some people use grāṃthika-bhāṣa."
     },
     {
@@ -189,12 +189,52 @@
       "meaning": "No. Grāmthika bhāṣa is hard."
     },
     {
-      "sentence": "grāṃthika bhāṣa nērcukovaḍam kaṣṭamainadi.",
+      "sentence": "grāṃthika bhāṣa nērcukovaḍaṃ kaṣṭamainadi.",
       "meaning": "It is hard to learn grāṃthika bhāṣa."
     },
     {
-      "sentence": "grāṃthika bhāṣa nērcukovaḍam kaṣṭamainadanappaṭiki mukhyamainadi.",
-      "meaning": "Grāṃthika bhāṣa is hard, but it is very important."
+      "sentence": "grāṃthika bhāṣa nērcukovaḍaṃ kaṣṭamainappaṭiki manamu nērcukovāli.",
+      "meaning": "Grāṃthika bhāṣa is hard, but we should still learn it."
+    },
+    {
+      "sentence": "nannayya vērē graṃdhālanu vrāsārā?",
+      "meaning": "Did Nannayya write other poems?"
+    },
+    {
+      "sentence": "āṃdhraśabdaciṃtāmaṇiḥni vrāsāru.",
+      "meaning": "He wrote the āṃdhraśabdaciṃtāmaṇiḥ."
+    },
+    {
+      "sentence": "āṃdhraśabdaciṃtāmaṇiḥ dēni guriṃci?",
+      "meaning": "What is the āṃdhraśabdaciṃtāmaṇiḥ about?"
+    },
+    {
+      "sentence": "āṃdhraśabdaciṃtāmaṇiḥ vyākaraṇamu guriṃci.",
+      "meaning": "The āṃdhraśabdaciṃtāmaṇiḥ is about grammar."
+    },
+    {
+      "sentence": "āṃdhraśabdaciṃtāmaṇiḥ oka vyākaraṇa graṃdhamu.",
+      "meaning": "The āṃdhraśabdaciṃtāmaṇiḥ is a grammar book."
+    },
+    {
+      "sentence": "nannayya ā graṃdhamunu ē bhāṣa lō vrāsāru?",
+      "meaning": "In what language did Nannayya write that book?"
+    },
+    {
+      "sentence": "saṃskṛta bhāṣa lō vrāsāru.",
+      "meaning": "He wrote it in the Sanskrit language."
+    },
+    {
+      "sentence": "ā graṃdhamu saṃskṛta bhāṣa lō vrāsāru gāni telugu vyākaraṇamu guriṃci.",
+      "meaning": "That book is written in the Sanskrit language, but it is about Telugu grammar."
+    },
+    {
+      "sentence": "telugu vyākaraṇamu kaṣṭamainadi kada?",
+      "meaning": "Telugu grammar is hard, right?"
+    },
+    {
+      "sentence": "kābaṭṭi āṃdhraśabdaciṃtāmaṇiḥ oka mukhyamaina graṃdhamu.",
+      "meaning": "Therefore, the āṃdhraśabdaciṃtāmaṇiḥ is an important book."
     }
   ],
   "budugu": [
@@ -236,7 +276,17 @@
       "sentence": "ānāṭi nuṃcī muppēṭana jātīyōdyamaṃ telugudēśaṃ nālugu ceragulā alumukuṃdi.",
       "meaning": "Since that day, the natoinal movement has struck the Telugu country like four sticks."
     }
-  ]
+  ],
 
+  "generic": [
+    {
+      "sentence": "kādu!",
+      "meaning": "No."
+    },
+    {
+      "sentence": "avunu!",
+      "meaning": "Yes."
+    }
+  ]
 }
 

@@ -1,8 +1,8 @@
 import React, { createRef, useState, useEffect } from "react";
-import TGSentence from "../components/tgsentence"
+import JSONSentence from "../components/jsonsentence"
 
 export default function Kadu() {
 	return (
-    <TGSentence display="kādu!" meaning="no" fullmeaning="No."/>
+		<JSONSentence sentid={0} content="generic"/>
 	)
 }

@@ -1,8 +1,8 @@
 import React, { createRef, useState, useEffect } from "react";
-import TGSentence from "../components/tgsentence"
+import JSONSentence from "../components/jsonsentence"
 
 export default function Avunu() {
 	return (
-    <TGSentence display="avunu!" meaning="Yes" fullmeaning="Yes."/>
+		<JSONSentence sentid={1} content="generic"/>
 	);
 }
